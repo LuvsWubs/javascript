@@ -23,7 +23,7 @@ document.getElementById("taunt").innerHTML=txt;
 // 	txt="Is that a yes or a no?";
 // 	console.log('yes or no?')
 // 	};
-console.log("computer#"+randomGuess);
+console.log("computer# "+randomGuess);
 
 	
 // var randomIndex=Math.floor(Math.random() *guesses.length);
