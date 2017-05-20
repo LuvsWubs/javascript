@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Game of Chance</title>
+   <link href="assets/css/style.css" type="text/css">
+  </head>
+ <body>
+	<img src="http://24.media.tumblr.com/eae25ca81d7531193793c476cde974bc/tumblr_mtuq7ddGW81rayowfo3_500.jpg" alt="Madam sees all" style="width='60', height='30'">
+
+	<p>Choose a number 1 through 10 if you would like play<br><h1>A Game of 10% Chance!</h1></p>
+	<form method="POST" id="guessGame" onSubmit="numberCheck(document.guessForm.randomGuess.value);">
+		<input type="text" id="guessForm"></input>
+		<button onclick="myFunction()">Feelin lucky?</button>
+		<p id="taunt"></p>
+	</form>	
+
+   <script type="text/javascript" src="assets/javascript/game.js"></script>
+ </body>
+</html>
+
