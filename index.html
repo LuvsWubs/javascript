@@ -2,19 +2,27 @@
  <html>
   <head>
    <title>Game of Chance</title>
-   <link href="assets/css/style.css" type="text/css">
+   <a href="./assets/css/styles.css" type="text/css"></a>
   </head>
- <body>
-	<img src="http://24.media.tumblr.com/eae25ca81d7531193793c476cde974bc/tumblr_mtuq7ddGW81rayowfo3_500.jpg" alt="Madam sees all" style="width='60', height='30'">
+ <body background="./assets/pic/redBackground.jpg">
+  <div>	
 
-	<p>Choose a number 1 through 10 if you would like play<br><h1>A Game of 10% Chance!</h1></p>
-	<form method="POST" id="guessGame" onSubmit="numberCheck(document.guessForm.randomGuess.value);">
+	 <p>Choose a letter a through z if you would like play<br><h1>A Game of 3.8% Chance!</h1></p>
+	 <form method="POST" id="guessGame" onSubmit="numberCheck(document.guessForm.userGuess.value);">
 		<input type="text" id="guessForm"></input>
-		<button onclick="myFunction()">Feelin lucky?</button>
-		<p id="taunt"></p>
-	</form>	
+		<button id = "guessButton">Feelin lucky?</button>
+	 </form>	
+	 <div id = "customMessage"></div>
+	 <p id=wins>Wins: </p>
+	 <p id=losses>Losses: </p>
+	 <p id=Userguess>Guesses: </p>
+	<img src="http://24.media.tumblr.com/eae25ca81d7531193793c476cde974bc/tumblr_mtuq7ddGW81rayowfo3_500.jpg" 
+	id=madam alt="Madam sees all" style="width='60', height='30'">
+  </div>
 
-   <script type="text/javascript" src="assets/javascript/game.js"></script>
+   <script type="text/javascript" src="psychicClassGame.js"
+   <!-- "./assets/javascript/game.js"> -->
+   	
+   </script>
  </body>
 </html>
-

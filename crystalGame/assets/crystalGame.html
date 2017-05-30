@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+</head>
+<body>
+<script type="text/javascript">
+  // Created a simple "alert" to get our bearings.
+  alert("hi");
+</script>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+</head>
+<body>
+<!-- Here we added in a single crystal image -->
+<img src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+<!-- Here we added a link to the jQuery library -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+<!-- Below is where our JavaScript code will go -->
+<script type="text/javascript">
+  // Created a simple "alert" to get our bearings.
+  alert("hi");
+</script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <!-- Below we added some simple CSS to resize our image-->
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <!-- We then wrapped our crystal image in an id "#crystals" -->
+  <div id="crystals">
+    <!-- We gave our crystal image the class ".crystal-image" to apply the resize-->
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <!-- Lastly we removed our "alert" -->
+  <script type="text/javascript">
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  // Here we created an on-click event that responds to button clicks of the crystal image.
+  $(".crystal-image").on("click", function() {
+    // Clicking the button triggers an alert message.
+    alert("You clicked a crystal!");
+  });
+  </script>
+</body>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  // Here we created a counter, we'll be using this to track the user's total.
+  var counter = 0;
+  $(".crystal-image").on("click", function() {
+    // Each time the user clicks the crystal the counter goes up by 1.
+    counter += 1;
+    // We then output the number of times the crystal is clicked.
+    alert("You clicked this crystal " + counter + " times!");
+  });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  var counter = 0;
+  $(".crystal-image").on("click", function() {
+    // This time we increase the counter by *10* each time the user clicks.
+    counter += 10;
+    // We then output the new counter value each time the crystal is clicked.
+    alert("Your new score is: " + counter);
+  });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  var counter = 0;
+  $(".crystal-image").on("click", function() {
+    // This time we increase the counter by *10* each time the user clicks.
+    counter += 10;
+    // We then output the new counter value each time the crystal is clicked.
+    alert("Your new score is: " + counter);
+  });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Here we added a header which will hold the "number-to-guess" -->
+  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  // Here we establish the "targetNumber" (set to 50 in this example).
+  var targetNumber = 50;
+  // Here we set the "number-to-guess" header to match the "targetNumber".
+  // Eventually this will allow us to change the HTML to match the value in the JavaScript.
+  $("#number-to-guess").text(targetNumber);
+  var counter = 0;
+  $(".crystal-image").on("click", function() {
+    counter += 10;
+    alert("Your new score is: " + counter);
+  });
+  </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>simple crystal game</title>
+  
+  <style type="text/css">
+    .crystal-image {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+  <div id="crystals">
+    <img class="crystal-image" src="http://cdn.playbuzz.com/cdn/35910209-2844-45c0-b099-f4d82878d54f/00261fda-4062-4096-81fd-8cf96b9034e8.jpg" alt="crystals">
+  </div>
+  <!-- JAVASCRIPT  -->
+  <!-- ========================================= -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script type="text/javascript">
+  var targetNumber = 50;
+  $("#number-to-guess").text(targetNumber);
+  var counter = 0;
+  $(".crystal-image").on("click", function() {
+    counter += 10;
+    alert("New score: " + counter);
+    // Here we created some logic to "check" if the click counter matches the targetNumber.
+    // Remember, this click event will be triggered with each click.
+    // With each click the counter will increase by 10 and be re-evaluated against target.
+    if (counter === targetNumber) {
+      // If the numbers match we'll celebrate the user's win.
+      alert("You win!");
+    }
+  });
+  </script>
+</body>
+</html>
+
+

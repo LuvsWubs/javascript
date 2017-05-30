@@ -1,3 +1,20 @@
 h1 {
 	color: pink;
 }
+
+#madam {
+	position: relative;
+	top: 50px;
+	left: -450px;
+}
+
+p {
+	color: orange;
+	font-family: Snell Roundhand, Gill Sans, sans-serif, Georgia, serif;
+	position: absolute;
+	left: 400px;
+	height: 400px;
+	width: 200px;
+}
+
+/*clearfix tends to create fewer bugs than clear*/
